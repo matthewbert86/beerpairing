@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beer & Food Pairing</title>
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ons-page>
+        <ons-toolbar>
+            <div class="center">Beer & Food Pairings</div>
+        </ons-toolbar>
+        <section id="container">
+            <p><ons-input id="food" modifier="underbar" placeholder="enter a food to pair">
+            </ons-input></p>
+            <p><ons-button modifier="medium" id="btnSearch">Search</ons-button></p>
+                <div id="result"></div>
+        </section>
+    </ons-page>
+    <script src="app.js"></script>
+</body>
+</html>
